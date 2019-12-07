@@ -6,15 +6,25 @@
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>HTML Essential Training</h1>
-<h3>HTML Reference</h3>
-<p><a href="#" title="Introduction to HTML">Introduction to HTML</a></p>
-<p><a href="#" title="HTML syntax">HTML syntax</a></p>
-<p><a href="#" title="Creating links">Creating links</a></p>
-<p><a href="#" title="HTML Reference">HTML reference</a></p>
-<p><a href="#" title="Next steps">Next steps</a></p>
+  <header role ="heading">
+   
+      <h1>HTML Essential Training</h1>
+      <h3>HTML Reference</h3>
+      <nav role="navigation">
+        <p><a href="#" title="Introduction to HTML">Introduction to HTML</a></p>
+        <p><a href="#" title="HTML syntax">HTML syntax</a></p>
+        <p><a href="#" title="Creating links">Creating links</a></p>
+        <p><a href="#" title="HTML Reference">HTML reference</a></p>
+        <p><a href="#" title="Next steps">Next steps</a></p>
+      </nav>
+    </header>
+    <main role="main">
+      <article>
+      <header>
 <p>On this page you&rsquo;ll find a quick reference to common HTML terms and a table of frequently used <a href="#named">named character entities</a>.</p>
-<h1>HTML Terms</h1>
+      </header>
+  <section>
+<h3>HTML Terms</h3>
 <dl>
   <dt>Attribute</dt>
   <dd> An HTML element property that provides additional information or functionality for an element. Attributes appear as a name/value pair with the value contained in quotation marks. </dd>
@@ -61,7 +71,9 @@
 </dl>
 <table border="1" cellspacing="0" cellpadding="0" summary="A quick reference of named character entities, including an example of the character, a description, and the entity code.">
   <caption>
-<h1>Common Named Character Entities</h1>
+    </section>
+    <section>
+<h3>Common Named Character Entities</h3>
   </caption>
   <tr>
     <th scope="col">Character </th>
@@ -154,6 +166,11 @@
     <td><b>&amp;mdash;</b></td>
   </tr>
 </table>
+</section>
+    <footer role="source">
 <p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+    </footer>
+  </article>
+</main>
 </body>
 </html>
